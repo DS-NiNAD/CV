@@ -2,21 +2,26 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>&#169;Contact Details</title>
+    <title>&#169; Contact Details</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h2>Contact Number: 9579663625</h2>
-    <form action="mailto:ethanhunt00100@gmail.com" method="post" enctype="text/plain">
-      <label>Name:</label>
-      <input type="text" name="Name"><br>
-      <label>Passwd:</label>
-      <input type="password" name="Password"><br>
-      <label>E-email:</label>
+    <center>
+    <h1 style="font-family: Garamond; color: #BB6464">Personal Information</h1>
+    <form class="forma" action="/action_page.php" method="get" enctype="text/plain">
+      <label>First Name:</label>
+      <input type="text" name="First_Name"><br>
+      <label>Last Name:</lable>
+      <input type="text" name="Last_Name"><br>
+      <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail:</label>
       <input type="email" name="email"><br>
-      <label>Comment:</label>
-      <textarea name="name" rows="2" cols="20"></textarea><br>
+      <label>Birth Date:</label>
+      <input type="date" name="birth_date"><br>
+      <label>&nbsp;Password:</label>
+      <input type="password" name="Password"><br>
       <input type="submit" name="Submit" value="Submit">
       <input type="reset" name="reset" value="reset">
       </form>
   </body>
+</center>
 </html>
